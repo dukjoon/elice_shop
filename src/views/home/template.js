@@ -27,20 +27,16 @@ headerEl.innerHTML = `
     <ul class="info_menu">
       <li class="show"><a href="/register">회원가입</a></li>
       <li class="show"><a href="/login">로그인</a></li>
-      <li class="none"><a href="/account">계정관리</a></li>
       <li class="none"><a href="/" id="logout">로그아웃</a></li>
-      <li>
-        <a href=""><i class="fa-solid fa-user"></i></a>
-      </li>
+      <li class="none"><a href="/account"><i class="fa-solid fa-user"></i></a></li>
+ 
       <li>
         <div id="cart">
           <div id="cart_badge"></div>
           <a href="/cart"><i class="fa-solid fa-cart-shopping"></i></a>
         </div>
       </li>
-      <li>
-        <a href=""><i class="fa-solid fa-heart"></i></a>
-      </li>
+      
     </ul>
   </div>
 </div>
